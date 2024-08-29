@@ -1,0 +1,46 @@
+.fieldprincipal{
+    width:50%;
+    left:25%;
+    position:absolute;
+    top:10%;
+}
+
+.link{
+    border-radius:1px;
+    border:true;
+}
+
+h2{
+    text-align:center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400px;
+}
+
+#menu-h ul li a {
+    color: black;
+    padding: 7px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float:right;
+    background-color: rgb(24, 139, 233);
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+}
